@@ -4,39 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A banking services websit" />
+    <meta name="description" content="A banking services website" />
     <link rel="stylesheet" href="smart.css" />
-    <title>Smart Banking</title>
     <script
-      src="https://kit.fontawesome.com/eaf110fa38.js"
       crossorigin="anonymous"
+      src="https://kit.fontawesome.com/1fef759d34.js"
     ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&family=Roboto:wght@500&display=swap"
       rel="stylesheet"
     />
+    <title>Smart banking</title>
   </head>
   <body>
     <header class="header">
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__list-item">
-            <a class="nav__link" href="#"> About</a>
+            <a class="nav__link" href="#about">About</a>
           </li>
 
           <li class="nav__list-item">
-            <a class="nav__link" href="#"> How It Works</a>
+            <a class="nav__link" href="#">How it works</a>
           </li>
 
           <li class="nav__list-item">
-            <a class="nav__link" href="#"> Contact</a>
+            <a class="nav__link" href="#">Contact</a>
           </li>
         </ul>
 
         <svg
-          class="nav__logo"
           width="83"
           height="15"
           viewBox="0 0 83 15"
@@ -73,6 +72,56 @@
           <i class="fa-solid fa-bag-shopping nav__icon"></i>
         </span>
       </nav>
+
+      <section id="about" class="section-hero">
+        <div class="section-hero__info">
+          <div class="section-hero__heading">
+            <h2 class="section-hero__title">
+              Banking <br />
+              <span class="text-wrapped">more</span> smart
+            </h2>
+
+            <p class="section-hero__description">
+              Meet the only spend management platform and corporate card.
+            </p>
+
+            <div class="section-hero__get-cards">
+              <!-- <span
+                class="icon-container icon-container--black icon-container--shadow"
+              > -->
+              <i
+                class="fa-solid fa-arrow-right icon icon--big icon--shadow"
+              ></i>
+              <!-- </span> -->
+
+              <p class="section-hero__get-cards-text">Get your cards</p>
+            </div>
+          </div>
+
+          <div class="section-hero__cards">
+            <div class="section-hero__cards-left">
+              <img
+                class="section-hero__visa"
+                src="/assets/visa.png"
+                alt="visa card"
+              />
+            </div>
+
+            <div class="section-hero__cards-right">
+              <div class="section-hero__cards-right-icons">
+                <i class="fa-solid fa-credit-card icon icon--white"></i>
+                <i class="fa-solid fa-circle-info icon icon--white"></i>
+                <i class="fa-solid fa-file-lines icon icon--white"></i>
+                <i class="fa-solid fa-hand-holding-hand icon"></i>
+                <i class="fa-solid fa-envelope icon"></i>
+                <i class="fa-solid fa-circle-question icon icon--white"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-hero__plans"></div>
+      </section>
     </header>
   </body>
 </html>
