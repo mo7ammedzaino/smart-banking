@@ -1,0 +1,171 @@
+/* Header */
+.header {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px 60px;
+  background-color: #f8fcff;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav__logo {
+  color: #17181a;
+}
+
+.nav__link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav__icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #dfdfdf;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.nav__icon {
+  color: #6b7275;
+  font-size: 10px;
+}
+
+/* Hero section */
+.section-hero {
+  padding-top: 60px;
+}
+
+.section-hero__info {
+  display: flex;
+  width: 100%;
+  height: 270px;
+}
+
+.section-hero__heading {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.section-hero__title {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 800;
+  font-size: 42px;
+}
+
+.section-hero__description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #535354;
+  width: 280px;
+  line-height: 30px;
+}
+
+.section-hero__get-cards {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-hero__get-cards-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: #222223;
+  transition-duration: 176ms;
+}
+.icon:hover ~ .section-hero__get-cards-text {
+  transform: translateX(5px);
+}
+
+.section-hero__cards {
+  flex: 1;
+  display: flex;
+}
+
+.section-hero__cards-left {
+  flex: 0.7;
+  background: linear-gradient(106.01deg, #80d1ff 0%, #44b2f1 69.58%);
+}
+
+.section-hero__visa {
+  width: 270px;
+  transform: rotate(-25deg);
+}
+
+.section-hero__cards-right {
+  flex: 0.3;
+  background: linear-gradient(201.5deg, #ffd968 4.52%, #fac422 102.63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-hero__cards-right-icons {
+  width: fit-content;
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.section-hero__cards-right .icon {
+  width: fit-content;
+  height: fit-content;
+}
+/* Start Plans */
+.section-hero__plans {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  height: 180px;
+}
+.section-hero__plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 200px;
+}
+.section-hero__plan-icon {
+  width: 24px;
+}
+
+.section-hero__plan-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.section-hero__plan-description {
+  font-family: "Roboto", sans-serif;
+  color: #5f5f64;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 00.01em;
+}
+.section-hero__plan:first-child .section-hero__plan-heading {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
