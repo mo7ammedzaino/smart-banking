@@ -1,0 +1,52 @@
+/* Start newsletter */
+.section-newsletter {
+  padding: 60px 40px;
+  background-color: #41b3f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-newsletter__left {
+  flex: 1;
+}
+.section-newsletter__left .section-newsletter__heading {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  margin-bottom: 70px;
+  text-transform: capitalize;
+}
+.section-newsletter__left .section-newsletter__subscribe {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  width: 160px;
+  height: 58px;
+  color: #ffffff;
+  background-color: #e15c19;
+  border: none;
+  transition-duration: 176ms;
+  cursor: pointer;
+}
+.section-newsletter__left .section-newsletter__subscribe:active {
+  transform: scale(0.96);
+}
+.section-newsletter__right {
+  flex: 1;
+  position: relative;
+}
+.section-newsletter__right-pg {
+  width: 250%;
+}
+
+.section-newsletter__right-img {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.92;
+}
