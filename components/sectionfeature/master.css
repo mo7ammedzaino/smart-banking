@@ -2,7 +2,7 @@
 .section-feature {
   display: flex;
   justify-content: space-between;
-  padding: 60px 20px;
+  padding: 60px;
 }
 .section-feature__left {
   width: 550px;
